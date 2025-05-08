@@ -58,7 +58,7 @@ for amount, txn_type, description in user_data['transactions']:
 
 print(f"\nFinal Balance: ${final_balance:.2f}")
 
-# Optionally display all stored data
+# Display of all stored data
 view_all = input("\nDo you want to see all stored user transactions? (yes/no): ").strip().lower()
 if view_all == 'yes':
     print("\n--- All Transactions in Memory ---")
