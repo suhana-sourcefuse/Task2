@@ -1,6 +1,22 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.csv
-.env
-*.ipynb
+*.py[cod]
+*$py.class
+
+venv/
+env/
+
 .vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Local config files
+*.env
+
+# Ignore output CSVs or temporary files (optional)
+*.csv
